@@ -1,0 +1,17 @@
+{
+    "name": "Accept it ones",
+    "version": "1.0.0",
+    "description": "Saving that 1 second of I accept the terms and conditions of LPU login",
+    "manifest_version": 3,
+    "author": "@wantedbear007",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "LPUlol"
+    },
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["logic.js"]
+        }]
+}
+
