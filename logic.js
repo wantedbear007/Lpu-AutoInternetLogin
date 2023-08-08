@@ -7,6 +7,10 @@ switch (window.location.hostname) {
     performAction();
     break;
 
+  case "https://internet.lpu.in/24online/webpages/client.jsp":
+    performAction();
+    break
+
 
   case "https://internet.lpu.in/24online/webpages/client.jsp":
     performAction();
